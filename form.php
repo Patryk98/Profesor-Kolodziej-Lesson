@@ -5,7 +5,7 @@
 	<title>Formularz</title>
 </head>
 <body>
-	<form action="form.html" method="post">
+	<form action="odp.php" method="post">
 		<p>Imię
 			<input type="text" name="imie" />
 		</p>
