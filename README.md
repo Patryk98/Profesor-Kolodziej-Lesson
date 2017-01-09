@@ -1,1 +1,1 @@
-# Profesor-Ko-odziej-Lesson
+# Profesor-Kolodziej-Lesson
