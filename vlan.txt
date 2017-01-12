@@ -1,0 +1,8 @@
+enable
+conf t
+vlan 10
+name "name"
+exit
+interface range fastEthernet 0/(range)
+switchport access vlan 10
+exit
