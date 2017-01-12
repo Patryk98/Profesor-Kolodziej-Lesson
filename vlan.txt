@@ -7,7 +7,19 @@ interface range fastEthernet 0/(range)
 switchport access vlan 10
 exit
 
-
+enable
+conf t
 interface range fastEthernet 0/23/24
 switchport mode trunk
 switchport trunk allowed vlan add 10
+
+
+
+switch:
+{
+enable
+conf t
+interface gigabitEthernet 0/0.10
+encapsulation dot1Q 10
+ip address 192.168.10.250 255.255.255.0
+}
